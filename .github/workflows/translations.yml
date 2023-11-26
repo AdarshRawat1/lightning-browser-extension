@@ -1,6 +1,7 @@
 name: Check Translation Changes
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - "src/i18n/locales/en/translation.json"
